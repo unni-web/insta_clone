@@ -1,0 +1,142 @@
+.main {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #3b4c59;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.main .left {
+    height: 100%;
+    width: 60%;
+    background-color: black;
+}
+
+.main .right {
+    height: 100%;
+    width: 40%;
+    background-color: #152127;
+    border-left: 3px solid #3b4c59;
+}
+
+/* left side  */
+
+
+.logo img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.left h3 {
+    font-size: 2.8vw;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image img {
+    height: 400px;
+    width: 500px;
+    padding-left: 210px;
+}
+
+
+
+
+/* right side */
+.right .seek h6 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+
+
+}
+
+.seek {
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.seek input {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #3b4c59;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    color: white;
+}
+
+.seek input[type="submit"] {
+    color: white;
+    background-color: #2f77cc;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.seek input::placeholder {
+    color: #a8a8a8;
+
+}
+
+.seek a {
+    padding-left: 200px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.register a {
+    padding-left: 180px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+/* end1 */
+.end1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.end1 p {
+    color: #a8a8a8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+
+/* end2 */
+.end2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.end2 p{
+     color: #a8a8a8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}

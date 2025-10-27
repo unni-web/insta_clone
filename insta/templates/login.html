@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/login.css'%}">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="logo">
+                <img src="https://static.cdninstagram.com/rsrc.php/v4/yR/r/hexDR1NOpRC.png" alt="">
+            </div>
+            <h3>See everyday moments from your <br> close friends.</h3>
+            <div class="image"> <img src="https://static.cdninstagram.com/rsrc.php/v4/yD/r/nWfBjz-5_uf.png" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="right">
+            <div class="seek">
+                <h6>Log into Instagram</h6>
+                <form action="" method="POST">
+                    {% csrf_token%}
+                    <input type="text" name="usesrname" id="" placeholder="Username"> <br> <br>
+                    <input type="password" name="password" id="" placeholder="Password"> <br><br>
+                    <input type="submit" value="Log in"><br> <br>
+                    <a href="">Forgot password?</a> <br> <br> <br> <br> <br> <br>
+                    <div class="register"><a href="../register/">Create a new account</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="end1">
+        <p>Meta</p>
+        <p>About</p>
+        <p>Blog</p>
+        <p>Jobs</p>
+        <p>Help</p>
+        <p>API</p>
+        <p>Privacy</p>
+        <p>Terms</p>
+        <p>Location</p>
+        <p>Instagram Lite</p>
+        <p>Meta AI</p>
+        <p>Meta AI Articles</p>
+        <p>Threads</p>
+        <p>Contact</p>
+        <p>Meta Verified</p>
+
+    </div>
+    <div class="end2">
+        <p>English</p>
+        <p>© 2025 Instagram from Meta</p>
+    </div>
+
+
+
+
+</body>
+
+</html>
