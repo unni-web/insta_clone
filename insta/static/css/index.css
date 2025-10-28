@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    margin-top: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .left {
+    position: fixed;
+    width: 220px;
+    height: 800px;
+    /* background-color: brown; */
+    border-right: 1px solid #3b4c59;
+    margin-left: 20px;
+}
+
+.main .mid {
+    width: 600px;
+    height: 500px;
+    /* background-color: thistle; */
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.main .right {
+    margin-top: 30px;
+
+    width: 300px;
+    height: 500px;
+    background-color: yellowgreen;
+    margin-right: 80px;
+
+}
+
+
+
+
+/* left */
+
+
+.left img {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.home {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.home img {
+    height: 30px;
+    width: 30px;
+}
+
+.home a {
+    color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+/* mid */
+
+.mid .story {
+    height: 100px;
+    width: 100%;
+    /* background-color: violet; */
+}
+
+.neymer {
+    width: 80px;
+}
+
+.story {
+    display: flex;
+    gap: 20px;
+    margin-left: 5px;
+}
+
+.story img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #ed0190;
+}
+
+.story p {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
+
+}
