@@ -19,7 +19,7 @@ body {
 
 .main .mid {
     width: 600px;
-    height: 500px;
+    /* height: 500px; */
     /* background-color: thistle; */
     margin-left: 400px;
     margin-top: 30px;
@@ -102,5 +102,37 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
 
+
+}
+
+.mid .posts {
+    /* height: 500px; */
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.mid .posts img {
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+
+
+
+.posts h4 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+
+.posts input {
+    background-color: transparent;
+    border: 0;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
